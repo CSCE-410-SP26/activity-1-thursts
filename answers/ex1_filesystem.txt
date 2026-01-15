@@ -1,0 +1,9 @@
+ex1_filesystem.txt
+team.txt
+
+Hello from xv6
+
+ex1_filesystem.txt
+myfile.txt
+team.txt
+test
