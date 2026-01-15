@@ -1,0 +1,24 @@
+1. Number of files in root directory: 
+2. Available user programs in xv6:
+.
+..
+cat
+echo
+forktest
+grep
+init
+kill
+ln
+ls
+mkdir
+rm
+sh
+stressfs
+usertests
+grind
+wc
+zombie
+logstress
+forphan
+dorphan
+console
