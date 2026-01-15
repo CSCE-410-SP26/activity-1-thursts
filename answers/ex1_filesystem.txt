@@ -1,9 +1,56 @@
-ex1_filesystem.txt
-team.txt
+$ ls
+.              1 1 1024
+..             1 1 1024
+README         2 2 2425
+cat            2 3 35376
+echo           2 4 34288
+forktest       2 5 17232
+grep           2 6 42728
+init           2 7 34752
+kill           2 8 34216
+ln             2 9 34032
+ls             2 10 41504
+mkdir          2 11 34272
+rm             2 12 34264
+sh             2 13 56096
+stressfs       2 14 35136
+usertests      2 15 186016
+grind          2 16 50488
+wc             2 17 36320
+zombie         2 18 33640
+logstress      2 19 36184
+forphan        2 20 35040
+dorphan        2 21 34480
+console        3 22 0
 
-Hello from xv6
+ echo "Hello from xv6" > myfile.txt
+$ cat myfile.txt
+"Hello from xv6"
 
-ex1_filesystem.txt
-myfile.txt
-team.txt
-test
+$ mkdir testdir
+$ ls
+.              1 1 1024
+..             1 1 1024
+README         2 2 2425
+cat            2 3 35376
+echo           2 4 34288
+forktest       2 5 17232
+grep           2 6 42728
+init           2 7 34752
+kill           2 8 34216
+ln             2 9 34032
+ls             2 10 41504
+mkdir          2 11 34272
+rm             2 12 34264
+sh             2 13 56096
+stressfs       2 14 35136
+usertests      2 15 186016
+grind          2 16 50488
+wc             2 17 36320
+zombie         2 18 33640
+logstress      2 19 36184
+forphan        2 20 35040
+dorphan        2 21 34480
+console        3 22 0
+myfile.txt     2 23 17
+testdir        1 24 32
