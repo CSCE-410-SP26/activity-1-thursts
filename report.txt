@@ -26,6 +26,7 @@ Score: 8.0 / 8
 ------------------------------------------------------------
 Exercise 3 : grep operation on file (8 points)
 Score: 3.0 / 8
+Comment: grep not executed properly in exercise 3
 ------------------------------------------------------------
 Exercise 3 : word count of file (8 points)
 Score: 8.0 / 8
